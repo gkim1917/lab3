@@ -48,11 +48,12 @@ public class ArrayTests {
 
   @Test
   public void testAverageWoutLowest() {
+    double [] input2 = {1,1,2,3,4};
+    assertEquals(2.5,ArrayExamples.averageWithoutLowest(input2),0);
+    
     double [] input = {1,2,3,4};
     assertEquals(3.0, ArrayExamples.averageWithoutLowest(input),0);
 
-    double [] input2 = {1,1,2,3,4};
-    assertEquals(2.5,ArrayExamples.averageWithoutLowest(input2),0);
   }
 
 }

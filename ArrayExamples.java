@@ -40,7 +40,7 @@ public class ArrayExamples {
     }
     double sum = 0;
     for(double num: arr) {
-      sum+=num;
+      if(num!=lowest){sum+=num;}
     }
     sum-=lowest;
     return sum / (arr.length - 1);

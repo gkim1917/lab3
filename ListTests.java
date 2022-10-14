@@ -7,10 +7,3 @@ import java.util.List;
 
 import org.junit.*;
 
-public class ListTests {
-    @Test
-    public void testfilter() {
-    List<String> input = Arrays.asList("apple","banana","grape");
-    
-  }
-}
